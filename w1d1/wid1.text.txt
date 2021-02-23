@@ -1,0 +1,43 @@
+
+Assignmentw1d1
+• What happens when an assignment is performed without using let or 
+const keywords in strict
+mode?
+answer:
+it causes an error like ReferenceError: 
+variable is not defined, because the variables are not defined 
+• List 5 reserved keywords in JavaScript.
+answer:
+var,let,const,brak,debugger
+.How is a computer program 
+similar/ different than an algorithm.
+answer:
+computer program is a sequence of instructions that can be run using any specific programming language, but
+algorithm is a pseudo code, which means it is a step by step operation(pseudocode) that helps to solve a problem
+• Write at least two algorithms you perform on your daily life, with at least one algorithm
+that can be converted to computer program.
+answer:
+1.washing my face
+-first washing my face using only water
+-using soap
+-washing using water again 
+-cleaning my face using scarp
+2.doing exercise
+- first warm up my body by streching my hands, and all my body
+-runing for 10 minutes
+doing push up 15 times
+settling my body by taking slow motion
+2.1.program of doing exercise
+let prompt=require('prompt-sync')();
+let time=prompt("please enter a time: ");
+if(time=="7"){
+    console.log("walk-up and stretch body for 5 minute");
+    }else if(time=="7:5"){
+    console.log("run for 10 minute");
+    }else if(time=="7:15"){
+    console.log("do 15 push up with in 3 minute");
+    }else if(time=="7:18"){
+    console.log("settle your body by taking fresh air");
+    }else {
+    console.log("you have no time take your break fast and start reading ");
+    }
